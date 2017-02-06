@@ -1,0 +1,86 @@
+
+
+h1, h2, h3, h4 {
+    font-family: 'Ropa Sans', sans-serif;
+    font-weight: 700;
+    color: #0D223F;
+}
+
+h3, h4 {
+    color: #0D223F;
+}
+
+a {
+    color: #F89F1F !important;
+}
+
+.navbar {
+    -webkit-box-shadow: 0 0 5px 0 rgb(0, 0, 0);
+    box-shadow: 0 0 5px 0 rgb(0, 0, 0);
+    text-transform: uppercase;
+    /*font-weight: bold;*/
+}
+
+.navbar-brand img {
+    height: 30px;
+    margin-top: -5px;
+}
+
+.navbar-text {
+    color: #0D223F !important;
+}
+
+.col-sm-6>h3:first-child {
+    margin-top: 0;
+}
+
+section.module.parallax {
+    height: 25em;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+section.module.parallax h1 {
+    color: #fff;
+    padding-top: 2.25em;
+    font-size: 54px;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+section.module.parallax p {
+    color: #fff;
+    font-size: 22px;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+section.module.parallax-1 {
+    /*background-image: url(http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/jazz/2015-group-tickets-parallax.jpg);*/
+    background-image: url(http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/jazz/JAZ1617-premium-seating_parallax1.jpg);
+}
+
+section.content {
+    padding-top: 1.5em;
+    padding-bottom: 3em;
+}
+
+section.content h2 {
+    text-align: center;
+    text-transform: uppercase;
+    padding: .5em 0;
+    margin-bottom: 1em;
+    border-top: 3px solid #eeeeee;
+    border-bottom: 3px solid #eeeeee;
+}
+
+.footer {
+    color: #fff;
+    background-color: #0D223F;
+    padding-top: 1.5em;
+    padding-bottom: 1em;
+}
